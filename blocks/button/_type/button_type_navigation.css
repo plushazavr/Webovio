@@ -1,0 +1,12 @@
+.button_type_navigation {
+  margin: 0;
+  padding: 0;  
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  background-image: url(../../../images/button-navigation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
