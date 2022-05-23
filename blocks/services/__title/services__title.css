@@ -1,0 +1,12 @@
+.services__title {
+  display: flex;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 128%;
+  color: #4D533C;
+  width: 475px;
+  margin-left: 166px;
+  margin-bottom: 24px;
+}

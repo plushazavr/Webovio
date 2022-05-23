@@ -1,0 +1,8 @@
+.review {
+  width: 474px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+  margin-left: 800px;
+  
+  transform: translateY(-541px);
+}

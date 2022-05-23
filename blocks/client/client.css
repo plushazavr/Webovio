@@ -1,4 +1,6 @@
 .client {
+  position: relative;
+  z-index: 2;
   margin: 0;
   margin-left: 165px;
   background-color: #fcfcfc;

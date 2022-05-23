@@ -1,0 +1,16 @@
+.services__link {
+  margin: 0;
+  margin-left: 166px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #D4D6D4;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.services__link:hover {
+  opacity: 0.6;
+}

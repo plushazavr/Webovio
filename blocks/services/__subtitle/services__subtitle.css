@@ -1,0 +1,19 @@
+.services__subtitle {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(77, 83, 60, 0.9);
+  width: 475px;
+  margin-left: 166px;
+}
+
+.services__subtitle:first-of-type {
+  padding-top: 233px;
+  margin-bottom: 29px;
+}
+
+.services__subtitle:last-of-type {
+  margin-bottom: 42px;
+}
