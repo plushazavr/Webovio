@@ -1,0 +1,15 @@
+.client__logo {
+  margin-top: 60px;
+  margin-bottom: 54px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.client__logo:first-of-type {
+  margin-left: 65px;
+}
+
+.client__logo:last-of-type {
+  margin-right: 166px;
+}

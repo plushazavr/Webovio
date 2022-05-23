@@ -10,3 +10,6 @@
 @import url(../blocks/button/_type/button_type_navigation.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/client/client.css);
+@import url(../blocks/client/__logo/client__logo.css);
+@import url(../blocks/client/__icon/client__icon.css);

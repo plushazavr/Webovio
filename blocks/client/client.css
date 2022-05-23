@@ -1,0 +1,11 @@
+.client {
+  margin: 0;
+  margin-left: 165px;
+  background-color: #fcfcfc;
+  width: 1276px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-113px);
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+}
