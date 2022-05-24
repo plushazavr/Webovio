@@ -1,0 +1,9 @@
+.preview {
+  padding-top: 150px;
+  width: 976px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 104px;
+}

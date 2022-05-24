@@ -1,0 +1,8 @@
+.comment__author {
+  width: 220px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

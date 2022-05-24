@@ -1,0 +1,7 @@
+.comment__avatar {
+  margin-right: 14px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+}
