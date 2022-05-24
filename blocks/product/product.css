@@ -1,5 +1,13 @@
 .product {
+  margin: auto;
+  margin-bottom: 100px;
   width: 1306px;
   display: flex;
-  align-items: center;
+  align-items: center;  
+  position: relative;
+  z-index: 1;
+}
+
+.product:last-of-type {
+  margin-bottom: 0;
 }
