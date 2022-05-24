@@ -26,6 +26,7 @@
 @import url(../blocks/review/__name/review__name.css);
 @import url(../blocks/review/__description/review__description.css);
 @import url(../blocks/line/line.css);
+@import url(../blocks/line/_type/line_type_footer.css);
 @import url(../blocks/project/project.css);
 @import url(../blocks/preview/preview.css);
 @import url(../blocks/preview/__title/preview__title.css);
@@ -65,3 +66,13 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__link/table__link.css);
 @import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/action/action.css);
+@import url(../blocks/action/__title/action__title.css);
+@import url(../blocks/action/__link/action__link.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__cell/contact__cell.css);
+@import url(../blocks/contact/__cell/_type/contact__cell_type_adress.css);
+@import url(../blocks/contact/__cell/_type/contact__cell_type_number.css);
+@import url(../blocks/contact/__heading/contact__heading.css);
+@import url(../blocks/contact/__info/contact__info.css);

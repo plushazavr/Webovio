@@ -1,0 +1,9 @@
+.contact {
+  margin: 0;
+  margin-bottom: 52px;
+  padding-top: 310px;
+  margin-left: 165px;
+  width: 452px;
+  display: flex;
+  justify-content: space-between;
+}
