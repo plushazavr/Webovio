@@ -1,0 +1,10 @@
+.table__text {
+  margin: 0;
+  width: 194px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+}

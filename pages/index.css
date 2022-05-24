@@ -57,3 +57,11 @@
 @import url(../blocks/comment/__info/_type/comment__info_type_revers.css);
 @import url(../blocks/comment/__name/_type/comment__name_type_revers.css);
 @import url(../blocks/comment/__text/_type/comment__text_type_revers.css);
+@import url(../blocks/methods-list/methods-list.css);
+@import url(../blocks/methods/methods.css);
+@import url(../blocks/methods/__title/methods__title.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__link/table__link.css);
+@import url(../blocks/table/__text/table__text.css);
