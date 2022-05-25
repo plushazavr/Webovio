@@ -2,7 +2,7 @@
 Лендинг, который может продемонстрировать работу вашей команды. 
 ***
 
-[Ссылка на GitHub-pages]()
+[Ссылка на GitHub-pages](https://plushazavr.github.io/Webovio/)
 
 [Макет Figma](https://www.figma.com/file/2rdy1qjBTl7D6BAC8S4qlf/)
 
