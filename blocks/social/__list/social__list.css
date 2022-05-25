@@ -1,0 +1,10 @@
+.social__list {
+  width: 33px;
+  height: 33px;
+  list-style: none;
+  margin-right: 11px;
+}
+
+.social__list:last-of-type {
+  margin-right: 0;
+}

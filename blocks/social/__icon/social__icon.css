@@ -1,0 +1,13 @@
+.social__icon { 
+  display: block;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: #444A34;
+  transition: fill 0.5s ease;
+}
+
+.social__icon:hover {
+  fill: #FFD723;
+}
