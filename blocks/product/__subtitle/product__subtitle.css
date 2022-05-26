@@ -7,3 +7,9 @@
   line-height: 26px;
   color: rgba(33, 56, 66, 0.6);
 }
+
+@media screen and (max-width: 1024px) {
+  .product__subtitle {    
+    padding: 24px 0px 20px;
+  }
+}

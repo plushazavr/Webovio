@@ -9,3 +9,10 @@
   line-height: 40px;
   color: #4D533C;
 }
+
+@media screen and (max-width: 1024px) {
+  .review__text {
+    padding-right: 40px;
+    padding-top: 120px;
+  }
+}

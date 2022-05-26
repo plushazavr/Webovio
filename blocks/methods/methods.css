@@ -3,3 +3,9 @@
   margin: 0px auto;
   padding-top: 149px;
 }
+
+@media screen and (max-width: 1024px) {
+  .methods {    
+    width: 692px;
+  }
+}

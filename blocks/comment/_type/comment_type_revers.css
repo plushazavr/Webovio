@@ -4,3 +4,9 @@
   bottom: 0px;
   left: 454px;
 }
+
+@media screen and (max-width: 1024px) {
+  .comment_type_revers {    
+    left: 184px;
+  }
+}

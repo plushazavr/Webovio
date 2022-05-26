@@ -9,5 +9,10 @@
   font-size: 60px;
   line-height: 74px;
   color: #4D533C;
+}
 
+@media screen and (max-width: 1024px) {
+  .action__title {
+    padding-top: 30px;
+  }
 }

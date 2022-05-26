@@ -17,3 +17,10 @@
 .services__subtitle:last-of-type {
   margin-bottom: 42px;
 }
+
+@media screen and (max-width: 1024px) {
+  .services__subtitle:first-of-type {
+    padding-top: 60px;
+    margin-bottom: 29px;
+  }
+}

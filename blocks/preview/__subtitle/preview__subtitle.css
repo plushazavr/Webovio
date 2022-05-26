@@ -6,3 +6,9 @@
   line-height: 26px;
   color: rgba(33, 56, 66, 0.6);
 }
+
+@media screen and (max-width: 1024px) {
+  .preview__subtitle {
+    width: 573px;
+  }
+}

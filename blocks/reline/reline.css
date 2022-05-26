@@ -3,3 +3,10 @@
   margin: 60px auto 60px;
   display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+  .reline {
+    flex-direction: column;
+    width: calc(100% - 166px*2);
+  }
+}

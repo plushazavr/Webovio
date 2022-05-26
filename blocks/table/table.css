@@ -2,8 +2,14 @@
   margin: 0px auto;
   padding: 0;
   padding-bottom: 322px;
-  width: 1110px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .table {
+    padding-bottom: 60px;
+  }
 }

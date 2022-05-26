@@ -2,3 +2,9 @@
   width: 1110px;
   margin: 0px auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .copyright {
+    width: calc(100% - 166px*2);
+  }
+}

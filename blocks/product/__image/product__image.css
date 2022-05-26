@@ -4,5 +4,13 @@
   width: 735px;
   height: 565px;
   object-fit: cover;
-  object-position: top center;
+}
+
+@media screen and (max-width: 1024px) {
+  .product__image {    
+    width: 510px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 30px;
+  }
 }

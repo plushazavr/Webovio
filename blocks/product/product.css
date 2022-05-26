@@ -11,3 +11,11 @@
 .product:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .product {    
+    width: 100%;
+    padding-bottom: 120px;
+    align-items: flex-start;
+  }
+}

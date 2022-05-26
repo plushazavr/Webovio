@@ -1,3 +1,10 @@
 .reline__social {
-  width: 322px;
+}
+
+@media screen and (max-width: 1024px) {
+  .reline__social {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
 }

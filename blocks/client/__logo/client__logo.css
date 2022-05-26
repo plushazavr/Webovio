@@ -18,3 +18,9 @@
   transform: scale(1.1);
   transition: 0.6s ease;
 }
+
+@media screen and (max-width: 1024px) {
+  .client__logo:last-of-type {
+    margin-right: 65px;
+  }
+}

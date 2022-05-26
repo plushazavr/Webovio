@@ -1,0 +1,6 @@
+.header__info {
+  width: calc(100% - 166px*2);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
