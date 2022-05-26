@@ -6,4 +6,5 @@
   background: #FAFAFA;
   box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
   padding-bottom: 70px;
+  overflow-y: hidden;
 }
