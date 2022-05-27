@@ -1,5 +1,5 @@
 .button_type_navigation {
-  margin: 0;
+  /*margin: 0;
   padding: 0;  
   width: 40px;
   height: 40px;
@@ -7,6 +7,42 @@
   background-image: url(../../../images/button-navigation.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.button_type_navigation::before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background: #000;
+  transform: translateY(-5px);
+  box-shadow: 0 5px #000;
+  transition: 0.5s;
+}
+
+.button_type_navigation::after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background: #000;
+  transform: translateY(5px);
+  transition: 0.5s;
+}
+
+.button_type_navigation.active::before {
+  transform: translateY(0px) rotate(45deg);
+  box-shadow: 0 0 #000;
+}
+
+.button_type_navigation.active::after {
+  transform: translateY(0px) rotate(-45deg);
+}

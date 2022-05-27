@@ -1,0 +1,20 @@
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;  
+  transition: height 0.5s, width 0.5s, border-radius 0.5s;
+  transition-delay: 0s, 0.5s, 0.55s;
+  overflow: hidden;
+}
+
+.nav-bar.active {
+  width: 240px;
+  height: 350px;
+  border-radius: 6px;
+  transition: width 0.5s, height 0.5s, border-radius 0.5s;
+  transition-delay: 0s, 0.5s;
+}

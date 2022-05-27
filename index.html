@@ -11,7 +11,15 @@
   <header class="header">
     <div class="navigation">
       <a class="logo" href="#"><img class="logo_place_header" src="./images/logo.svg" alt="Logo"></a>
-      <button type="button" class="button button_type_navigation" aria-label="Navigation"></button>
+      <div class="nav-bar">
+        <button class="button button_type_navigation" type="button" aria-label="Navigation"></button>
+        <ul class="navigation__list">
+          <li class="navigation__item"><a class="navigation__link link" href="#product">Our product</a></li>
+          <li class="navigation__item"><a class="navigation__link link" href="#project">Project</a></li>
+          <li class="navigation__item"><a class="navigation__link link" href="#methods">Methods</a></li>
+          <li class="navigation__item"><a class="navigation__link link" href="#contact">Contacts</a></li>
+        </ul>
+      </div>      
     </div>
     <div class="header__info">
       <p class="header__subtitle">A place where</p>
@@ -29,7 +37,7 @@
     <a href="#" class="client__logo"><img class="client__icon" src="./images/Ideal.svg" alt="Ideal"></a>
     <a href="#" class="client__logo"><img class="client__icon" src="./images/PhalenLeadership.svg" alt="Phalen Leader ship"></a>    
   </section>
-  <section class="services">
+  <section class="services" id="product">
     <div>
       <p class="services__subtitle">What we do for you</p>
       <h2 class="services__title">Strategy. Design  Content. Technology
@@ -56,7 +64,7 @@
       <p class="preview__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
     </div>
     <div class="product__item">
-      <div class="product">
+      <div class="product" id="project">
         <img class="product__image" src="./images/product-1.png" alt="Product">
         <div class="product__text">
           <h2 class="product__title">The wall new 
@@ -117,7 +125,7 @@
   </section>
   <section class="methods-list">
     <hr class="line">
-    <div class="methods">
+    <div class="methods" id="methods">
       <h2 class="methods__title">Deation & Evaluation - Best Way to Kick off Your Product Idea</h2>
       <ul class="table">
         <li class="table__cell">
@@ -148,7 +156,7 @@
     <a class="action__link link" href="#">&#9658; LET'S GET STARTED</a>
   </section>
   <footer class="footer">
-    <ul class="contact">
+    <ul class="contact" id="contact">
       <li class="contact__cell contact__cell_type_number">
         <h3 class="contact__heading">Phone</h3>
         <p class="contact__info">+32 50 31 28 32</p>
@@ -231,7 +239,14 @@
       </div>      
     </section>
   </footer>
-  
+  <script>
+    const buttonNav = document.querySelector('.button_type_navigation');
+    const navBar = document.querySelector('.nav-bar');
+    buttonNav.onclick = function(){
+      buttonNav.classList.toggle('active');
+      navBar.classList.toggle('active');
+    }
+  </script>
 </body>
 </html>
 

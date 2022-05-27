@@ -1,6 +1,8 @@
 .navigation {
+  position: relative;
+  z-index: 1;
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   justify-content: space-between;
   margin: 0px auto;
   width: calc(100% - 165px*2);
