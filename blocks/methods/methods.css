@@ -1,6 +1,6 @@
 .methods {
-  width: 1110px;
-  margin: 0px auto;
+  width: calc(100% - 165px*2);
+  margin: 0 auto;
   padding-top: 149px;
 }
 

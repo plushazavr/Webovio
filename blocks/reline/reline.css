@@ -1,10 +1,10 @@
 .reline {
-  width: 1110px;
+  width: calc(100% - 165px*2);
   margin: 60px auto 60px;
   display: flex;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1312px) {
   .reline {
     flex-direction: column;
     width: calc(100% - 166px*2);

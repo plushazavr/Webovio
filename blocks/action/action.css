@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 2;
   transform: translateY(-181px);
-  width: 1275px;
+  max-width: 1275px;
   background: #FAFAFA;
   box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
   padding-bottom: 70px;

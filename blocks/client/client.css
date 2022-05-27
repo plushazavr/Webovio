@@ -1,15 +1,16 @@
 .client {
+  position: relative;
   z-index: 2;
   margin: 0;
-  margin-left: 143px;
   background-color: #fcfcfc;
-  width: 1276px;
+  max-width: 1276px;
   display: flex;
   justify-content: space-between;
   transform: translateY(-113px);
   box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
   border-radius: 2px;
   overflow: hidden;
+  margin-bottom: -231px;
 }
 
 @media screen and (max-width: 1024px) {

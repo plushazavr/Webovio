@@ -1,11 +1,11 @@
 .product {
   margin: auto;
   margin-bottom: 100px;
-  width: 1306px;
   display: flex;
   align-items: center;  
   position: relative;
   z-index: 1;
+  padding-right: 10px;
 }
 
 .product:last-of-type {
