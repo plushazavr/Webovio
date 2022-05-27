@@ -1,3 +1,4 @@
 .product__text {
-  width: 475px;
+  max-width: 475px;
+  min-width: 208px;
 }

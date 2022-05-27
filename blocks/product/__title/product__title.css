@@ -6,3 +6,9 @@
   line-height: 48px;
   color: #4D533C;
 }
+
+@media screen and (max-width: 1083px) {
+  .product__title {
+    font-size: 30px;
+  }
+}
