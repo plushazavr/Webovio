@@ -14,3 +14,12 @@
     width: 550px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .comment {    
+    position: static;    
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}

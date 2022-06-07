@@ -7,3 +7,9 @@
   z-index: 1;
   padding-right: 0px;
 }
+
+@media screen and (max-width: 768px) {
+  .product_type_revers {    
+    flex-direction: column;
+  }
+}

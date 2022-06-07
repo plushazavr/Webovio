@@ -1,4 +1,10 @@
 .client__icon {
-  width: 156px;
-  height: 113px;
+  width: 156px;  
+}
+
+@media screen and (max-width: 768px) {
+  .client__icon {
+    width: 135px;
+  }
+
 }

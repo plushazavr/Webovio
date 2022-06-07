@@ -7,3 +7,9 @@
   color: #D4D6D4;
   margin-left: 164px;
 }
+
+@media screen and (max-width: 768px) {
+  .action__link {
+    margin-left: 30px;
+  }
+}

@@ -10,3 +10,9 @@
     width: calc(100% - 166px*2);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .reline {
+    width: calc(100% - 30px*2);
+  }
+}

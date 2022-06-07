@@ -1,6 +1,13 @@
 .header {
-  height: 811px;
+  margin: 0;
   background-image: url(../../images/header-back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 286px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-bottom: 200px;
+  }
 }

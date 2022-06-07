@@ -1,12 +1,10 @@
-.header__info {
+.services__block {
   width: calc(100% - 166px*2);
-  margin: auto;
-  display: flex;
-  flex-direction: column;
+  margin: 0px auto;
 }
 
 @media screen and (max-width: 768px) {
-  .header__info {
+  .services__block {
     width: calc(100% - 30px*2);
   }
 }

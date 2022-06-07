@@ -1,9 +1,16 @@
 .copyright {
   margin: 0px auto;
+  width: calc(100% - 165px*2);;
 }
 
 @media screen and (max-width: 1024px) {
   .copyright {
     width: calc(100% - 166px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .copyright {
+    width: calc(100% - 30px*2);
   }
 }

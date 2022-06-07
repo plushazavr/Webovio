@@ -9,3 +9,9 @@
     width: 692px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .methods {    
+    padding-top: 60px;;
+  }
+}

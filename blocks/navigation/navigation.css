@@ -10,3 +10,9 @@
   padding-top: 24px;
   padding-bottom: 124px;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    width: calc(100% - 30px*2);
+  }
+}

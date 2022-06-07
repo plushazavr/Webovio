@@ -2,3 +2,12 @@
   max-width: 475px;
   min-width: 208px;
 }
+
+@media screen and (max-width: 768px) {
+  .product__text {    
+    /*max-width: 655px;*/
+    max-width: 600px;
+    padding-left: 30px;
+    
+  }
+}

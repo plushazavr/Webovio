@@ -8,3 +8,9 @@
   line-height: 26px;
   color: rgba(33, 56, 66, 0.6);
 }
+
+@media screen and (max-width: 768px) {
+  .table__text {    
+    width: 100%;
+  }
+}
